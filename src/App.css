@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.container > form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  box-sizing: border-box;
+}
+.container input,
+textarea,
+button {
+  padding: 15px;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 10px;
+  font-size: medium;
+}
+.container button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition: background-color 0.7s;
+}
+
+.Task {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+  margin: 10px 0;
+  width: 70%;
+}
+
+.Task > div {
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.Task > button {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Task > button:hover {
+  background-color: red;
+}
+
+.Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.Navbar-item {
+  background-color: rgb(234, 231, 231);
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border-color: aqua;
+}
+
+.Navbar-Pages {
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-color: black;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.Navbar-Pages:hover {
+  background-color: rgb(40, 52, 214);
+  color: antiquewhite;
+  border-radius: 20px;
+  transition: background-color 0.75s, border-radius 0.3s;
+}
