@@ -1,5 +1,6 @@
 {
-  "name": "reactprojone",
+  "homepage": "https://hanshal101.github.io/DailyGoals",
+  "name": "dailygoals",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
